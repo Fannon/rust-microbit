@@ -18,12 +18,26 @@
               "flashingEnabled": true,
               "haltAfterReset": false,
             },
+           
             //!MODIFY
             "chip": "nRF52833_xxAA",
             "coreConfigs": [
               {
+                "coreIndex": 0,
                 //!MODIFY
-                "programBinary": "./target/thumbv7em-none-eabihf/debug/${workspaceFolderBasename}"
+                "programBinary": "./target/thumbv7em-none-eabihf/debug/${workspaceFolderBasename}",
+                "rttEnabled": true,
+                "rttChannelFormats": [
+                    {
+                      "dataFormat": "String",
+                      "channelNumber": 0,
+                      "showTimestamps": false
+                    },
+                    {
+                      "dataFormat": "BinaryLE",
+                      "channelNumber": 1
+                    }
+                  ],
               }
             ]
         }
