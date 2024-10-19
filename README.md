@@ -31,3 +31,5 @@ cargo embed --chip nRF52833_xxAA --probe 0d28:0204
 * https://doc.rust-lang.org/beta/rustc/platform-support.html
     * https://doc.rust-lang.org/beta/rustc/platform-support/thumbv7em-none-eabi.html
         * thumbv7em-none-eabihf
+* https://www.youtube.com/watch?v=A9wvA_S6m7Y&t=14s
+    * https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2.21/MicroBit_V2.2.1_nRF52820%20schematic.PDF
